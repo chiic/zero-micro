@@ -1,0 +1,22 @@
+{
+  "name": "zero-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js --watch",
+    "main-vue2": "cd examples/main/vue2 && npm run serve",
+    "child-vue2": "cd examples/children/vue2-child && npm run serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.59.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "import-html-entry": "^1.11.1"
+  }
+}
